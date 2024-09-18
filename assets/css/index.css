@@ -48,3 +48,19 @@ h1 h3 h4 p {
         max-width: 150px;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: rgb(255, 247, 247);
+      background: #000000;
+    }
+
+    .hero {
+        background: linear-gradient(0deg, #00000038 20%, #ffffff44 150%);
+        background-color: rgb(14, 19, 14)
+    }
+
+    img {
+        opacity: 0.5;
+    }
+  }
