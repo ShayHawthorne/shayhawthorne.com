@@ -36,7 +36,7 @@ img {
 }
 
 h1 h3 h4 p {
-    color:rgb(29, 24, 24)
+    color: rgb(29, 24, 24);
 }
 
 @media (max-width: 600px) {
@@ -49,18 +49,36 @@ h1 h3 h4 p {
     }
   }
 
-  @media (prefers-color-scheme: dark) {
+   @media (prefers-color-scheme: dark) {
     body {
-      color: rgb(255, 247, 247);
       background: #000000;
     }
 
     .hero {
         background: linear-gradient(0deg, #00000038 20%, #ffffff44 150%);
-        background-color: rgb(14, 19, 14)
+        background-color: rgb(14, 19, 14);
+    }
+
+    h1 h2 h3 h4 p {
+        color: rgb(255, 247, 247);
     }
 
     img {
         opacity: 0.5;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    body {
+      background: rgb(255, 224, 204);
+    }
+
+    .hero {
+        background-color: rgb(255, 247, 247);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 10, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    h1 h3 h4 p {
+        color: rgb(29, 24, 24);
     }
   }
