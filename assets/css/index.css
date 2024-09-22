@@ -2,6 +2,11 @@
     outline: 2px solid red;
 }
 
+@font-face {
+    font-family: "Open Dyslexic";
+    src: url(https://antijingoist.itch.io/opendyslexic);
+}
+
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +20,7 @@ header {
     background-color: rgb(255, 247, 247);
     background: linear-gradient(0deg, #ffe0cc 10%, #ffffff91 30%);
     color: rgb(29, 24, 24);
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -45,7 +50,7 @@ nav a {
     text-decoration: underline;
 }*/
 
-li {
+.header > li {
     padding: 0;
 }
 
@@ -68,6 +73,7 @@ li {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 10, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     text-align: center;
     margin: 0 auto;
+    margin-top: 3rem;
     padding: 50px;
     max-width: 80%;
     width: 700px;
@@ -79,7 +85,20 @@ li {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    min-width: 250px;
     margin: 0 50px 0 0;
+}
+
+.intro > h1 {
+    font-family: ;
+}
+
+.intro > p {
+    margin: 0;
+}
+
+.intro > ul {
+    text-align: left;
 }
 
 .intro > h1 {
@@ -94,7 +113,7 @@ li {
 .info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     gap: 10px;
     margin: 0 auto;
@@ -137,9 +156,8 @@ footer {
     height: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 0;bottom:0;left:0;
+    align-items: flex-end;
+    position: relative;
 }
 
 @media (max-width: 600px) {
@@ -148,10 +166,19 @@ footer {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .hero {
         width: 60vw;  
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .intro {
+        margin: 0px;
+    }
+
+    .footer {
+        margin-top: auto;
     }
 
     nav ul {
