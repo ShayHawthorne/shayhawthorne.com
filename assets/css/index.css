@@ -97,7 +97,7 @@ nav a {
 img {
     background: radial-gradient(circle at 50% 50%, rgba(255, 255, 0, 0) 50%, rgba(255, 224, 204, 1) 100%);
     border-radius: 50%;
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
 }
 
@@ -129,7 +129,7 @@ footer {
     position: relative;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     header .container,
     footer .container {
         flex-direction: column;
