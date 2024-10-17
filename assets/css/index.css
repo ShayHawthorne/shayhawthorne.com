@@ -1,3 +1,12 @@
+/* Main color: #f7bea2, (247, 190, 162) Darker: CF8968. Darker: A65B37.
+muted main color: #ffe4d1, (255, 228, 209)
+secondary color (teal): #a1f9ff
+tertiary color (purple): #d3a1ff
+
+*/
+
+/* * { outline: 2px red solid; } */
+
 body{
     margin: 0;
     display: flex;
@@ -5,13 +14,14 @@ body{
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 224, 204);
+    background-color: rgb(247, 190, 162);
     color: rgb(29, 24, 24);
 }
 
 header {
-    background-color: rgb(255, 247, 247);
-    background: linear-gradient(0deg, #ffe0cc 10%, #ffffff91 30%);
+    background: rgba(255, 228, 209, 1);
+    box-shadow: 5.1px 4.2px 10.2px hsl(0deg 0% 0% / 0.34);
+    /* background: linear-gradient(0deg, rgb(247, 190, 162) 1%, rgb(255, 228, 209) 30%); */
     color: rgb(29, 24, 24);
     padding: 1rem 1rem;
     text-decoration: none;
@@ -41,7 +51,7 @@ nav a {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 690px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,13 +60,14 @@ nav a {
 
 .hero {
     display: flex;
-    background-color: rgb(255, 247, 247);
-    background: linear-gradient(0deg, #ffe0cc 10%, #ffffff91 50%);
+    background: rgba(255, 228, 209, 1);
+    /* background: linear-gradient(0deg, rgb(247, 190, 162) 1%, rgb(255, 228, 209) 30%); */
     border-radius: 50px;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 10, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 5.1px 10.2px 10.2px hsl(0deg 0% 0% / 0.34);
     text-align: center;
     padding: 50px;
-    max-width: 80%;
+    max-width: 100%;
     width: 700px;
 }
 
@@ -66,7 +77,6 @@ nav a {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    min-width: 250px;
 }
 
 .intro > ul {
@@ -83,15 +93,19 @@ nav a {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    padding: 0 2rem;
 }
 
 img {
+    /* border: #ffba9a 2px solid;   */
+    box-shadow: 2.5px 5.0px 5.0px hsl(0deg 0% 0% / 0.42);
     border-radius: 50%;
-    max-width: 250px;
+    width: 400px;
     height: auto;
+    max-width: 250px
 }
 
-h1 h2 h3 h4 p {
+h1, h2, h3, h4, p {
     color: rgb(29, 24, 24);
 }
 
