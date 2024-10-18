@@ -20,7 +20,7 @@ body{
 
 header {
     background: rgba(255, 228, 209, 1);
-    box-shadow: 5.1px 4.2px 10.2px hsl(0deg 0% 0% / 0.34);
+    box-shadow: 5.1px 4.2px 10.2px rgba(65, 29, 12, 0.349);
     /* background: linear-gradient(0deg, rgb(247, 190, 162) 1%, rgb(255, 228, 209) 30%); */
     color: rgb(29, 24, 24);
     padding: 1rem 1rem;
@@ -64,7 +64,7 @@ nav a {
     /* background: linear-gradient(0deg, rgb(247, 190, 162) 1%, rgb(255, 228, 209) 30%); */
     border-radius: 50px;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 10, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    box-shadow: 5.1px 10.2px 10.2px hsl(0deg 0% 0% / 0.34);
+    box-shadow: 5.1px 10.2px 10.2px rgba(65, 29, 12, 0.349);
     text-align: center;
     padding: 50px;
     max-width: 100%;
