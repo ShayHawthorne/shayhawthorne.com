@@ -18,6 +18,13 @@ tertiary color (purple): #d3a1ff
         --textColorLight: rgba(255, 252, 250, 1);
     }
 
+    @font-face {
+        font-family: 'Oregano';
+        font-style: normal;
+        font-weight: 400;
+        src: local(''), url("assets/fonts/Oregano-Regular.ttf") format('truetype');
+    }
+
     body {
         margin: 0;
         padding: 0;
@@ -101,6 +108,10 @@ tertiary color (purple): #d3a1ff
     }
 
     .intro > h1 {
+        font-family: 'Oregano';
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        /* font-size: 2rem; */
         text-align: center;
     }
 
