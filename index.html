@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head style="font-family: "/assets/fonts/";">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preload" as="font" type="font/ttf" href="assets/fonts/Oregano-Regular.ttf" crossorigin>
 
-    <link media="screen" rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     
     <title>Shay Hawthorne</title>
 </head>
@@ -23,9 +21,10 @@
         </nav>
     </header>
 
-    <div class="content">
-        <div class="container">
-            <div class="hero">    
+    <main class="main">
+
+        <section class="hero">
+            <div class="heroCard">    
                 <div class="intro">       
                     <h1>Hey, I'm Shay!</h1>
                     <h4>I'm a software engineer. This site is still under construction but there will be projects & contact info up soon!</h4>
@@ -34,8 +33,10 @@
                 <img class="otter" src="assets/img/asc-otter.png" alt="Closeup of a curious otter with greenery in the background." height="400" width="400">
                 <p>Until then, enjoy this otter (courtesy of Smithsonian).</p>
             </div>
-        </div>
-    </div>
+        </section>
+
+
+    </main>
 
     <footer class="footer">
         <p>&copy; 2024 Shay Hawthorne</p>
